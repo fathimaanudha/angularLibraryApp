@@ -1,0 +1,31 @@
+<div id="page-wrap">
+ <div class="card-header">
+    <h3>Login</h3>
+  </div>
+  
+  <div class="card-body">
+    <form class="form col-md-6" (ngSubmit)="userVerify();">
+      <div class="form-group">
+        <label for="name">email</label>
+        <input type="email" class="form-control" name="username" [(ngModel)]='user.username'required>
+        <!-- <small class="text-danger" *ngIf="email.invalid || email.touched">Enter valid email</small>  -->
+        <!-- above in ngmodel, value and ngmodel is declared inside app.componen.ts -->
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]='user.password' required>
+        
+      </div>
+      <br>
+      <button class="btn btn-primary" id="btn1" >Login</button>
+      <br>
+      <br>
+        
+        
+      
+  
+    </form>
+   
+  </div>
+</div> 

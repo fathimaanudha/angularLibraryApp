@@ -1,0 +1,16 @@
+
+
+<div class="main">
+    <div class="left">
+       
+    <p><a routerLink="authors">View Authors</a></p>   
+    <p><a routerLink="addauthor" *ngIf="_auth.adminLoggedIn()">Add New Author</a></p>  
+       
+    </div>
+  
+    <div class="right">
+      <router-outlet></router-outlet>  
+    </div>
+  
+    
+  </div>

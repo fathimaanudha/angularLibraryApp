@@ -1,0 +1,47 @@
+
+
+
+
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel"> -->
+        <div class="panel-body" *ngFor= 'let author of authors'>
+            <div class="row" id="row">
+              <br>
+              <div class="col-md-2 col-sm-3 text-center">
+                <a class="story-title" href="#"><img [src]=author.image alt=""  style="width:100px;height:100px" class="img-circle"></a>
+  
+              </div>
+              <div class="col-md-10 col-sm-9">
+                
+                <div class="row">
+                  <div class="col-xs-9">
+                    <h3>{{author.name}}</h3>
+                    <h4><span class="label label-default">{{author.genre}}</span></h4>
+                    <small class="text-muted">{{author.works}}
+                      <br>
+                      <a [routerLink]="['/author',author._id]"class="text-muted" style="font-size: smaller;">Read More</a>
+                    </small>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+  
+            </div>
+          
+  
+          </div>
+  
+        <!-- </div>
+  
+      </div>
+  
+    </div>
+  
+  </div> -->

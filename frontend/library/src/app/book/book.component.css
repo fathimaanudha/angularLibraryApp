@@ -1,0 +1,123 @@
+
+.panel{
+    width: 50%;
+    margin-left:8%;
+
+    
+  }
+  .top-spacer {
+    /* background-color:#ffffff; */
+    background-color:#f1d790;
+    height:90px;
+    margin-left: 8%;
+    width: 90%;
+    padding: 2%;
+    /* border-left: 5px double black; */
+    /* border-top: 10px double black; */
+  
+  
+  }
+  #topPanel {
+    padding-top:0px;
+    padding-left:22px;
+    padding-right:22px;
+  }
+  #topPanel .panel-body {
+    padding-top:0px;
+  }
+  .panel-body{
+    background-color:#f1d790;
+    width:80%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 11%;
+    border-radius: 12px;
+    /* text-align: center; */
+  }
+  img{
+      border: 2px solid black;
+  }
+  #row{
+    height: 200px;
+    border-radius: 12px;
+    /* padding: 2%; */
+    /* border: 2px solid wheat; */
+    /* padding: 2px; */
+    margin: 3px;
+    transition: all 0.3s linear;
+  }
+  #row:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  }
+  
+.panel {
+    border-color:transparent;
+    border-radius:0;
+  }
+  .label  {
+    background-color: transparent;
+    color: black;
+    font-family: 'Henny Penny', cursive;
+    /* text-align: center; */
+  }
+  #row{
+    /* padding: 2%; */
+    /* border: 2px solid wheat; */
+    padding: 3.5%;
+    margin: 3px;
+    transition: all 0.3s linear;
+  }
+  #row:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+      box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  }
+  small{
+    background-color: transparent;
+    color: black;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+  }
+  .text-muted{
+    margin-left: 1.5%;
+  }
+  
+  .thumbnail {
+    margin-bottom:8px;
+  }
+  
+  .img-container {
+    overflow:hidden;
+    height:170px;
+  }
+  img{
+    
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+  .img-container img {
+    min-width:280px;
+    min-height:180px;
+    max-width:380px;
+    max-height:280px;
+  }
+  
+  .txt-container {
+    overflow:hidden;
+    height:100px;
+  }
+  
+  .panel .lead {
+    overflow:hidden;
+    height:90px;
+  }
+  h3{
+    color: rgb(65, 19, 5);
+  }
+  

@@ -1,0 +1,19 @@
+
+/* override bootstrap styles */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body {
+    background-image:url('https://wallpapersafari.com/image/desktop-wallpaper-library-theme.jpg') ;
+    font-family: 'Henny Penny', cursive;
+  color:#ffffff;
+  /* background-color:#000000; */
+  /* background-image: url(/images/bg2.jpg); */
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family: 'Henny Penny', cursive;
+}

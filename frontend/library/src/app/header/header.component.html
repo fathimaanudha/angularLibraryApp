@@ -1,0 +1,18 @@
+
+
+<div>
+ 
+    <ul>
+        <a routerLink="">Home</a>
+        <a routerLink="login" *ngIf="!_auth.loggedIn()">Login</a>
+        <a routerLink="signup"*ngIf="!_auth.loggedIn()">SignUp</a>
+        <a  routerLink="books"*ngIf="_auth.loggedIn()">Books</a>
+        
+        <a routerLink="authors" *ngIf="_auth.loggedIn()">Authors</a>
+        <a  routerLink="logout"*ngIf="_auth.loggedIn()" (click)="logoutUser()">Logout</a>
+
+    </ul>
+    
+ 
+    
+</div>

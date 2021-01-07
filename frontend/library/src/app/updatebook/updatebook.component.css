@@ -1,0 +1,47 @@
+#page-wrap{
+    margin-left: 28%;
+    border: 3px solid rgb(233, 225, 225);
+    background-color:rgba(212, 208, 171, 0.678);
+    /* background-image: url(./images/ToDoList_1920x1080blur.jpg); */
+    /* background-size: cover; */
+    width: 35vw;
+    /* margin-top: 2%; */
+    padding: 5%;
+  }
+  #page-wrap input{
+    padding: 2%;
+     width: 25vw;
+    background-color: rgb(226, 225, 225);
+    color: rgb(14, 1, 1, 169);
+    border: 2px solid rgb(255, 255, 255);
+  }
+  #page-wrap h2{
+  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+  }
+  #page-wrap h6,#a{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    color: #5c1807 !important;
+  }
+  #page-wrap h6,#a:hover{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    color: #000000  !important;
+  }
+  #btn1{
+    /* margin-left: 40%; */
+    width: 25vw;
+      background-color: rgb(80, 39, 6);
+      color: rgb(235, 233, 233);
+      border: 2px solid rgba(255, 255, 252, 0.918);
+  
+  }
+  #btn1:hover{
+      background-color: rgb(238, 217, 97);
+      color: rgb(105, 10, 10);
+      border: 2px solid rgba(107, 70, 68, 0.918);
+  
+  }

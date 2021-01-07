@@ -1,0 +1,26 @@
+<div id="page-wrap">
+    <h2>Add Book</h2>
+    
+     <form (ngSubmit)="AddBook()">
+      <input type="text" name="title" required placeholder="Enter the title of the book" [(ngModel)]="bookItem.title" required>
+         <br>
+         
+         <br>              
+            
+         <input type="text" name="author" required placeholder="Enter the Author" [(ngModel)]="bookItem.author" required>
+         <br>
+  
+       
+         <br> 
+  
+        
+         <input type="text" name="genre" required placeholder="Enter genre " [(ngModel)]="bookItem.genre" required><br>
+         
+         <br> 
+         Add imageLink:
+        <input type="text" name="image"  required placeholder="imageUrl here" [(ngModel)]="bookItem.imageUrl" required><br>
+         
+         <br> 
+       <button class="btn btn-lg btn-primary btn-block" type="submit" id="btn1" style="font-family: 'Henny Penny', cursive;" >Add Book</button>
+  </form>         
+  </div>     

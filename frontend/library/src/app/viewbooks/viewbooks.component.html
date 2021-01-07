@@ -1,0 +1,19 @@
+
+<div class="main">
+    <div class="left">
+       
+    <a routerLink="viewbooks">View Books</a> 
+    <br>
+    <br>
+    
+    <a routerLink="addbook" *ngIf="_auth.adminLoggedIn()">Add New Book</a> 
+       
+    </div>
+  
+    <div class="right">
+      <router-outlet></router-outlet>  
+    </div>
+  
+    
+  </div>
+  
